@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  font-family: Arial;
+  border: border-box;
+}
+
+html body{
+  height: 100%;
+  width: 100%;
+}
+
+.full_page{
+  height: 45vw;
+  width: 100%;
+  background-image: url(netflix_back1.jpg) ;
+  background-size: cover;
+}
+
+
+.navbar{
+  height: 3vw;
+  width: 100%;
+  padding: 1.5vw 3vw;
+  display: flex;
+}
+.logo{
+  background-image: url(netflix-logo.png);
+  background-size: cover;
+  height: 3.5vw;
+  width: 11.5vw;
+ margin-left: 6.5vw;
+}
+
+.nav1{
+  height: 2.75vw;
+  width: 8.9vw;
+  border: 0.1vw solid white;
+  border-radius: 0.35vw;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 2vw;
+  position: absolute;
+  right: 20vw;
+}
+
+.nav1 i{
+  font-size: 2vw;
+}
+
+.nav1 select option{
+  font-size: 3vw;
+}
+
+select{
+  background-color: transparent;
+  color: white;
+  border-color: transparent;
+}
+
+
+ .button1{
+  height: 2.75vw;
+  width: 5.5vw;
+   font-size: 1vw;
+   border-radius:0.50vw;
+   background-color: red;
+   color: white;
+   position: absolute;
+   right: 13vw;
+}
+
+.content{
+  color: white;
+  height: 35vw;
+  width: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h1{
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 2vw;
+  margin-top: 1.5vw;
+}
+
+h3{
+  margin-top: 1.5vw;
+  font-size: 1.3vw;
+  color: white;
+}
+input{
+  height: 3.5vw;
+  width: 27vw;
+  background-color: transparent;
+  color: white;
+  font-size: 1.5vw;
+  border-radius:0.5vw;
+  margin-top: 2vw;
+  border: 0.75px solid white;
+}
+
+.button2{
+  height:4vw;
+  width: 14vw;
+  color: white;
+  background-color: red;
+  font-size: 1.5vw;
+  border-radius: 0.50vw;
+  margin-top:2vw;
+}
+
+::placeholder{
+  color: white;
+}
+
+.input_button{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.rule1{
+  background-color: black;
+  height: 35vw;
+  border-bottom:8px solid rgb(66, 62, 62) ;
+  color: white;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+
+.parts {
+  height: 30vw;
+  width: 40vw;
+  background-size: cover;
+}
+
+.p1{
+  margin: 0vw 3vw;
+  height: 10vw;
+  width: 50vw;
+}
+h2{
+  font-size: 4vw;
+  color: white;
+}
+
+.part1_img{
+  background-image: url(img1.png);
+}
+
+.part2_img { 
+  background-image: url(part2_img.jpg);
+}
+
+.part3_img{
+  background-image: url(part3_img.png);
+}
+
+.part4_img{
+  background-image: url(part4_img.png);
+}
+
+.question_content{
+  height: 65vw;
+  width: 100%;
+  background-color: black;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom:8px solid rgb(66, 62, 62) ;
+}
+
+.button3{
+  height: 6vw;
+  width: 90vw;
+  font-size: 2vw;
+  background-color: rgb(56, 54, 54);
+  color: white;
+  text-align: start;
+  margin-top: 1.5vw;
+}
+
+.button3:hover{
+ background-color: rgb(70, 69, 69);
+}
+
+.button3 i{
+  font-size: 3.5vw;
+ position: absolute;
+ right: 8vw;
+}
+
+.foot{
+  height: 27vw;
+  width: 100vw;
+  background-color: black;
+}
+
+.panel{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.3vw;
+}
+
+ul{
+  margin-top: 1.5vw;
+}
+
+ul a{
+  display: block;
+color: white;
+margin-top: 3vw;
+}
+
+.copyright{
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vw;
+  font-size: 1.5vw;
+}
